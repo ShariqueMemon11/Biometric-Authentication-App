@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#121212"
+    tools:context=".SaveDocumentActivity">
+
+    <EditText
+        android:id="@+id/documentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_document_content"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/btnSaveDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/documentContent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_save_background"
+        android:text="@string/save_document1"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        tools:ignore="SmallSp" />
+</RelativeLayout>

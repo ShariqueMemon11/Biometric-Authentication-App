@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#1E1E1E"
+    tools:context=".ViewDocumentsActivity">
+
+    <!-- ListView for displaying saved documents -->
+    <ListView
+        android:id="@+id/documentsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:background="#212121"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+    <!-- EditText for entering document content -->
+
+
+</RelativeLayout>

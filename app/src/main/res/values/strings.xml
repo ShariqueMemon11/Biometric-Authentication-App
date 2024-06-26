@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="authentication_app">Authentication App</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="todo1">TODO</string>
+    <string name="save_document">Save Document</string>
+    <string name="enter_document_content">Enter Document Content</string>
+    <string name="view_documents">View Documents</string>
+    <string name="save_document1">Save Document</string>
+</resources>
